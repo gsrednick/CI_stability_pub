@@ -186,6 +186,7 @@ site_distance_island_df %>%
 sites_plot<-merge(sites_2,site_table)
 
 # make this a spatial object
+# get US coastline shapefile -- from https://maps.princeton.edu/catalog/stanford-xv279yj9196 
 sf_object <- sf::st_read("./Data/Spatial/stanford-xv279yj9196-shapefile/xv279yj9196.shp")
 
 print("This will also take a bit of time. You're almost there!")
