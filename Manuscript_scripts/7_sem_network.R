@@ -22,9 +22,6 @@ habitat_loadings<-read.csv("./Manuscript_scripts/Exported_data/hab_similarity.cs
 site_env_data<-read.csv("./Data/Env_data/site_env_data.csv")
 network_trophic_position<-read.csv("./Manuscript_scripts/Exported_data/network_trophic_position.csv")
 
-# [For testing] This is the old CV SST file pre-rgdal depreciation - slightly different values for three SMI sites -- no major changes to story 
-#site_env_data_old<-read.csv("/Users/icarus3/Documents/Software/R/Tidy Workshop/Git/CI_asynchrony_MPA/Data/Env_data/site_env_data.csv")
-
 
 #qqnorm(log(island_env_data$CV_SST+1))
 
