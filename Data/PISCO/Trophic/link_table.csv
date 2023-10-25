@@ -1,0 +1,132 @@
+"species","r2","p","trophic_level","common_name","sci_name","taxa_consumed","taxa_name_consumed"
+"AFLA","0.0621160773717307","0.001","tertiary_consumer","Tubesnout","Aulorhynchus flavidus",NA,NA
+"AGLSTR","0.0206428722279052","0.011","secondary_consumer","Ostrich-Plume Hydroid","Aglaophenia struthionides",NA,NA
+"ANEM","0.00328855708852757","0.374","secondary_consumer","Anemone","Actiniaria",NA,NA
+"ANTSOL","0.0135622643829924","0.046","secondary_consumer","Green Anemone","Anthopleura sola",NA,NA
+"ANTXAN","0.0223315745507085","0.021","secondary_consumer","Giant Green Anemone","Anthopleura xanthogrammica","2, 3, 24, 60, 19, 36","APLCAL, APLVAC, LINCOL, STRPURAD, HENLEV, PATMIN"
+"APLCAL","0.00144658727665037","0.66","primary_consumer","California Brown Sea Hare","Aplysia californica","25, 12, 44","MACPYRAD, EISARBAD, PTECALAD"
+"APLVAC","0.00909286043964126","0.113","primary_consumer","Black Sea Hare","Aplysia vaccaria","23, 25, 12, 44","LAMFAR, MACPYRAD, EISARBAD, PTECALAD"
+"APOCAL","0.0111120395480699","0.092","primary_consumer","California Sea Cucumber","Apostichopus californicus",NA,NA
+"APOPAR","0.15217052540879","0.001","primary_consumer","Warty Sea Cucumber","Apostichopus parvimensis",NA,NA
+"ASTARM","0.00372214612862904","0.326","primary_consumer","Armored Sand Star","Astropecten armatus",NA,NA
+"ATHE","0.0292198315565769","0.001","secondary_consumer","Grunion, Topsmelt Or Jacksmelt","Atherinopsidae",NA,NA
+"BALNUB","0.0339291731605043","0.003","tertiary_consumer","Barnacle","Balanus nubilus",NA,NA
+"BARNAC","0.0365628302906193","0.001","tertiary_consumer","Barnacle","Cirripedia",NA,NA
+"BFRE","0.00792762947072141","0.151","secondary_consumer","Kelp Surfperch","Brachyistius frenatus",NA,NA
+"BRANCH","0.155723793107775","0.001","producer","Red Algae (Branching Flat Blade)","Red Algae (Branching Flat Blade)",NA,NA
+"BRAY","0.0462621897938679","0.001","tertiary_consumer","Bat Ray","Myliobatis californica","5, 17, 43, 28, 27, 16","CAGG, HALRUF, POMGIB, MEGUND, MEGCRE, HALCOR"
+"BROWN","0.192568814804183","0.001","producer","Brown Algae","Phaeophyceae",NA,NA
+"BRYO","0.0950647062831441","0.001","secondary_consumer","Bryozoan","Bryozoa",NA,NA
+"BUSHY","0.0776712663065539","0.001","producer","Red Algae (Cylindrical Branches)","Red Algae (Cylindrical Branches)",NA,NA
+"CAGG","0.0207279807428929","0.025","secondary_consumer","Shiner Surfperch","Cymatogaster aggregata",NA,NA
+"CANSPP","0.0376923153135039","0.001","secondary_consumer","Cancer Crab","Cancridae",NA,NA
+"CENCOR","0.155599909578458","0.001","primary_consumer","Coronado Urchin, Crowned Urchin","Centrostephanus coronatus","25, 50, 12, 10, 23","MACPYRAD, SARHOR, EISARBAD, DIACAL, LAMFAR"
+"CLAM","0.0357566900281266","0.006","primary_consumer","Clam","Clam",NA,NA
+"COMTUN","0.0835716526386423","0.001","primary_consumer","Tunicate -Colonial,Compund,Social","Tunicate -Colonial,Compund,Social",NA,NA
+"CORCAL","0.040763465118491","0.001","secondary_consumer","Strawberry Anemone","Corynactis californica",NA,NA
+"CPRI","0.0278313744060053","0.003","secondary_consumer","Ocean Whitefish","Caulolatilus princeps","61, 39","STYMON, PHRCAL"
+"CPUN","0.0951880303092618","0.001","tertiary_consumer","Blacksmith","Chromis punctipinnis",NA,NA
+"CRAGIG","0.0593815084698321","0.001","primary_consumer","Rock Scallop","Crassadoma gigantea",NA,NA
+"CRIALB","0.272841584426114","0.001","secondary_consumer","White-Spotted Rose Anemone","Cribrinopsis albopunctata",NA,NA
+"CRUCOR","0.347230524648038","0.001","producer","Coralline Algae -Crustose","Coralline Algae -Crustose",NA,NA
+"CUPCOR","0.120292726639535","0.001","secondary_consumer","Cup Coral","Cup Coral",NA,NA
+"CVEN","0.00481007101234975","0.269","quarternary_consumer","Swell Shark","Cephaloscyllium ventriosum","26, 21, 15, 37, 14, 20, 22, 8, 56, 33, 57, 13, 18, 31","MCAL, HRUB, GNIG, PCLA, ELAT, HROS, HSEM, CPUN, SMYS, OPIC, SPUL, EJAC, HCAR, OCAL"
+"DERIMB","0.116008411691827","0.001","secondary_consumer","Leather Star","Dermasterias imbricata","7","CORCAL"
+"DESSPP","0.0428251365108514","0.001","producer","Acidic Seaweed","Desmarestia",NA,NA
+"DIACAL","0.0438560284812966","0.001","primary_consumer","Southern Staghorn Bryozoan","Diaperoforma californica",NA,NA
+"DICTYOTALES","0.107410731917542","0.001","producer","Dictyotales","Dictyotales",NA,NA
+"DIOCHA","0.0208983837132937","0.01","secondary_consumer","Ornate Tube Worm","Diopatra/Chaetopterus spp",NA,NA
+"DODFEW","0.0642479601473963","0.001","primary_consumer","Dodecaceria","Dodecaceria fewkesi",NA,NA
+"EISARBAD","0.000387844264228003","0.894","producer","Southern Sea Palm","Eisenia arborea",NA,NA
+"EJAC","0.000679865974870298","0.862","secondary_consumer","Black Surfperch","Embiotoca jacksoni","10","DIACAL"
+"ELAT","0.0806650007894411","0.001","secondary_consumer","Striped Surfperch","Embiotoca lateralis",NA,NA
+"ENCRED","0.0233006816673226","0.004","producer","Red Algae -Encrusting","Red Algae -Encrusting",NA,NA
+"ERECOR","0.0757300565401057","0.001","producer","Coralline Algae -Erect/Articulated","Coralline Algae -Erect/Articulated",NA,NA
+"EUGRUB","0.0349992266378397","0.003","tertiary_consumer","Purple Gorgonian","Eugorgia rubens",NA,NA
+"GMOR","0.0107155274652836","0.089","quarternary_consumer","California Moray","Gymnothorax mordax","21, 37, 56, 22, 14, 48, 51, 26, 20, 57, 31, 8, 33, 35, 18, 13","HRUB, PCLA, SMYS, HSEM, ELAT, RVAC, SATR, MCAL, HROS, SPUL, OCAL, CPUN, OPIC, PANINT, HCAR, EJAC"
+"GNIG","0.0617301560258021","0.001","primary_consumer","Opaleye","Girella nigricans","25, 50, 30","MACPYRAD, SARHOR, MURCAL"
+"GREEN","0.0199546141822782","0.007","producer","Green Algae","Chlorophyta",NA,NA
+"HALCOR","0.0355342202297876","0.005","primary_consumer","Pink Abalone","Haliotis corrugata","25, 12, 50","MACPYRAD, EISARBAD, SARHOR"
+"HALRUF","0.108114602104974","0.001","primary_consumer","Red Abalone","Haliotis rufescens","23, 12, 25, 44","LAMFAR, EISARBAD, MACPYRAD, PTECALAD"
+"HCAR","0.0576208816325881","0.001","secondary_consumer","Rainbow Surfperch","Hypsurus caryi",NA,NA
+"HENLEV","0.0445367296245158","0.001","primary_consumer","Blood Star","Henricia leviuscula",NA,NA
+"HFRA","0.0171919829693681","0.024","tertiary_consumer","Horn Shark","Heterodontus francisci","36, 46, 43, 40, 6, 17, 29, 60, 20, 16, 42, 45, 28, 22, 33, 27, 8, 41","PATMIN, PYCHEL, POMGIB, PISBRE, CENCOR, HALRUF, MESFRAAD, STRPURAD, HROS, HALCOR, PISOCH, PUGPRO, MEGUND, HSEM, OPIC, MEGCRE, CPUN, PISGIG"
+"HROS","0.0647208815949139","0.001","tertiary_consumer","Giant Kelpfish","Heterostichus rostratus","4, 31","BFRE, OCAL"
+"HRUB","0.218096572412263","0.001","secondary_consumer","Garibaldi","Hypsypops rubicundus","30, 25, 7, 11","MURCAL, MACPYRAD, CORCAL, DODFEW"
+"HSEM","0.16950905919956","0.001","secondary_consumer","Rock Wrasse","Halichoeres semicinctus","10, 39, 60","DIACAL, PHRCAL, STRPURAD"
+"HYDROID","0.103152998381483","0.001","secondary_consumer","Hydroid","Hydroid",NA,NA
+"KELKEL","0.0143187850093932","0.034","secondary_consumer","Kellet's Whelk","Kelletia kelletii","28, 16, 17","MEGUND, HALCOR, HALRUF"
+"KGB","0.00590932833091461","0.205","quarternary_consumer","Kelp, Gopher, Black And Yellow, and Copper Rockfish Young of Year","Sebastes atrovirens/carnatus/chrysomelas/caurinus",NA,NA
+"LACY","0.0355038043952737","0.002","producer","Red Algae (Lacy Branching)","Red Algae (Lacy Branching)",NA,NA
+"LAMFAR","0.0974557970847281","0.001","producer","Laminaria","Laminaria farlowii",NA,NA
+"LAMHOLD","0.0547183957345475","0.001","producer","Laminariales Holdfast (Alive)","Laminariales Holdfast (Alive)",NA,NA
+"LAMSETAD","0.0250835385340681","0.013","producer","Laminaria","Laminaria setchellii",NA,NA
+"LEAFY","0.0535397173301109","0.001","producer","Red Algae (Leaf-Like)","Red Algae (Leaf-Like)",NA,NA
+"LEPCHI","0.059621121437782","0.001","tertiary_consumer","Red Gorgonian","Leptogorgia chilensis",NA,NA
+"LINCOL","0.00151398679831982","0.564","primary_consumer","Fragile Star","Linckia columbiae",NA,NA
+"LOXGRA","0.0114925433422937","0.093","tertiary_consumer","Sheep Crab","Loxorhynchus grandis","45, 9, 34, 40, 36, 19, 46, 42, 41, 24","PUGPRO, DERIMB, ORTKOE, PISBRE, PATMIN, HENLEV, PYCHEL, PISOCH, PISGIG, LINCOL"
+"LOXSCY","0.0164502581049493","0.046","secondary_consumer","Decorator Crab, Moss Crab","Loxorhynchus crispatus/Scyra acutifrons",NA,NA
+"LYTPIC","0.0149818194306225","0.05","primary_consumer","white urchin","Lytechinus pictus",NA,NA
+"MACPYRAD","0.015702720616615","0.047","producer","Macrocystis","Macrocystis pyrifera",NA,NA
+"MCAL","0.0774026826555834","0.001","secondary_consumer","Halfmoon","Medialuna californiensis","44, 25, 23","PTECALAD, MACPYRAD, LAMFAR"
+"MEDAEQ","0.0137783995995473","0.035","primary_consumer","Red Star","Mediaster aequalis",NA,NA
+"MEGCRE","0.0245196196712663","0.008","secondary_consumer","Giant Key-Hole Limpet","Megathura crenulata","25","MACPYRAD"
+"MEGUND","0.0674877556031961","0.001","primary_consumer","Wavy Turban Snail","Megastraea undosa","12, 25, 23","EISARBAD, MACPYRAD, LAMFAR"
+"MESFRAAD","0.263733249528877","0.001","primary_consumer","Red Urchin adult","Mesocentrotus franciscanus","50, 12, 44, 23, 25","SARHOR, EISARBAD, PTECALAD, LAMFAR, MACPYRAD"
+"MURCAL","0.0402430105016048","0.001","tertiary_consumer","California Golden Gorgonian","Muricea californica",NA,NA
+"MURFRU","0.0133279181928589","0.058","tertiary_consumer","Brown Gorgonian","Muricea fruticosa",NA,NA
+"MUSSEL","0.0322807235031196","0.001","primary_consumer","Mussel","Mytilus spp",NA,NA
+"NEOFIM","0.00430370224752834","0.304","producer","Sieve/colander kelp","Neoagarum fimbriatum",NA,NA
+"NEOSPA","0.0926624887958703","0.001","secondary_consumer","Chestnut Cowrie","Neobernaya spadicea",NA,NA
+"OCAL","0.000827242439800864","0.789","secondary_consumer","Senorita","Oxyjulis californica",NA,NA
+"OCTOPUS","0.0392957041772213","0.001","secondary_consumer","Octopus","Octopus",NA,NA
+"OELO","0.0419289667000596","0.001","quarternary_consumer","Lingcod","Ophiodon elongatus","14, 38, 15, 55, 51, 21, 33, 58, 37, 56, 47, 26, 31, 8, 59, 53, 20, 52, 48, 5, 32, 57","ELAT, PFUR, GNIG, SMAR, SATR, HRUB, OPIC, SRAS, PCLA, SMYS, RTOX, MCAL, OCAL, CPUN, STRE, SCAU, HROS, SCAR, RVAC, CAGG, OELO, SPUL"
+"OPIC","0.0143618720687341","0.036","secondary_consumer","Painted Greenling","Oxylebius pictus",NA,NA
+"ORTKOE","0.0410937147912514","0.004","secondary_consumer","Rainbow Star","Orthasterias koehleri","61","STYMON"
+"OYT","0.00127252504082088","0.706","tertiary_consumer","Olive Or Yellowtail Rockfish","Sebastes serranoides/flavidus",NA,NA
+"PACFIM","0.0540815712355714","0.001","secondary_consumer","Burrowing Anemone","Pachycerianthus fimbriatus",NA,NA
+"PANINT","0.0394839700784233","0.001","secondary_consumer","Spiny Lobster","Panulirus interruptus","6, 3, 60, 17, 28, 16, 2, 29","CENCOR, APLVAC, STRPURAD, HALRUF, MEGUND, HALCOR, APLCAL, MESFRAAD"
+"PATMIN","0.315624047988485","0.001","primary_consumer","Bat Star","Patiria miniata",NA,NA
+"PCLA","0.025772141680788","0.005","tertiary_consumer","Kelp Bass, Calico Bass","Paralabrax clathratus","14, 53, 8, 13, 52, 2, 48, 25, 58, 18, 33, 20, 31, 22, 1, 56, 54, 47, 5, 38, 4, 51, 55, 59, 26","ELAT, SCAU, CPUN, EJAC, SCAR, APLCAL, RVAC, MACPYRAD, SRAS, HCAR, OPIC, HROS, OCAL, HSEM, AFLA, SMYS, SCHR, RTOX, CAGG, PFUR, BFRE, SATR, SMAR, STRE, MCAL"
+"PFUR","0.00226184579414198","0.414","secondary_consumer","White Surfperch","Phanerodon furcatus","25, 39","MACPYRAD, PHRCAL"
+"PHRCAL","0.08549597763363","0.001","secondary_consumer","Colonial Sand Tube Worm","Phragmatopoma californica",NA,NA
+"PISBRE","0.0240662573235628","0.011","secondary_consumer","Short Spined Star","Pisaster brevispinus","39","PHRCAL"
+"PISGIG","0.0692658158550866","0.001","secondary_consumer","Giant Spined Star","Pisaster giganteus","16, 43, 17, 28","HALCOR, POMGIB, HALRUF, MEGUND"
+"PISOCH","0.0236982382186844","0.011","tertiary_consumer","Ochre Star","Pisaster ochraceus","11","DODFEW"
+"POMGIB","0.208101158522125","0.001","primary_consumer","Red Turban Snail","Pomaulax gibberosus","25, 23","MACPYRAD, LAMFAR"
+"PTECALAD","0.114627873485443","0.001","producer","Pterygophora","Pterygophora californica",NA,NA
+"PUGPRO","0.0102998598355944","0.07","secondary_consumer","Northern Kelp Crab","Pugettia producta","50, 44, 23, 25","SARHOR, PTECALAD, LAMFAR, MACPYRAD"
+"PYCHEL","0.0595565897427056","0.001","secondary_consumer","Sunflower Star","Pycnopodia helianthoides","43, 36, 6, 29, 34, 19, 27, 42, 28, 17, 24, 60, 9, 16, 41, 39","POMGIB, PATMIN, CENCOR, MESFRAAD, ORTKOE, HENLEV, MEGCRE, PISOCH, MEGUND, HALRUF, LINCOL, STRPURAD, DERIMB, HALCOR, PISGIG, PHRCAL"
+"RTOX","0.0166315611253483","0.043","secondary_consumer","Rubberlip Surfperch","Rhacochilus toxotes","39, 49","PHRCAL, SALTRI"
+"RVAC","0.0333107450684943","0.003","secondary_consumer","Pile Surfperch","Rhacochilus vacca","17, 16","HALRUF, HALCOR"
+"SALTRI","0.0136426343278549","0.046","primary_consumer","Fragile Tube Worms","Salmacina tribranchiata",NA,NA
+"SARHOR","0.0848279112230625","0.001","producer","Invasive Sargassum","Sargassum horneri",NA,NA
+"SATR","0.0148911412317299","0.036","tertiary_consumer","Kelp Rockfish","Sebastes atrovirens","56, 1, 5, 33","SMYS, AFLA, CAGG, OPIC"
+"SAUR","0.022432844492729","0.008","tertiary_consumer","Brown Rockfish","Sebastes auriculatus",NA,NA
+"SCAR","0.026935163320937","0.009","tertiary_consumer","Gopher Rockfish","Sebastes carnatus","56, 7, 60, 45","SMYS, CORCAL, STRPURAD, PUGPRO"
+"SCAU","0.0547345162995371","0.001","quarternary_consumer","Copper Rockfish","Sebastes caurinus","5, 14, 18, 13, 56, 48, 55, 45, 4","CAGG, ELAT, HCAR, EJAC, SMYS, RVAC, SMAR, PUGPRO, BFRE"
+"SCHR","0.0439800826850572","0.004","quarternary_consumer","Black And Yellow Rockfish","Sebastes chrysomelas","32, 45, 37, 8","OELO, PUGPRO, PCLA, CPUN"
+"SCUM","0.00273073394187276","0.471","producer","Diatom Layer","Diatom Layer",NA,NA
+"SGUT","0.00706578958303058","0.153","tertiary_consumer","California Scorpionfish","Scorpaena guttata","8, 16, 1, 17, 5","CPUN, HALCOR, AFLA, HALRUF, CAGG"
+"SMAR","0.00989760643411317","0.082","tertiary_consumer","Cabezon","Scorpaenichthys marmoratus","16, 31, 8, 14, 5, 33, 54, 26, 1, 20, 17, 45, 38","HALCOR, OCAL, CPUN, ELAT, CAGG, OPIC, SCHR, MCAL, AFLA, HROS, HALRUF, PUGPRO, PFUR"
+"SMEL","0.0137656269601629","0.067","tertiary_consumer","Black Rockfish","Sebastes melanops",NA,NA
+"SMIN","0.0961594159932616","0.001","quarternary_consumer","Vermilion Rockfish","Sebastes miniatus",NA,NA
+"SMYS","0.0561715285260397","0.001","tertiary_consumer","Blue Rockfish","Sebastes mystinus",NA,NA
+"SOLTUN","0.0185019590647914","0.015","secondary_consumer","Tunicate -Solitary","Tunicate -Solitary",NA,NA
+"SPONGE","0.0227320659353733","0.032","primary_consumer","Sponge","Porifera",NA,NA
+"SPUL","0.00994250793604287","0.096","secondary_consumer","California Sheephead","Semicossyphus pulcher","43, 29, 10, 49, 35, 16, 60, 45, 39, 6, 17","POMGIB, MESFRAAD, DIACAL, SALTRI, PANINT, HALCOR, STRPURAD, PUGPRO, PHRCAL, CENCOR, HALRUF"
+"SRAS","0.00973557714148117","0.097","quarternary_consumer","Grass Rockfish","Sebastes rastrelliger","20, 38, 5, 47","HROS, PFUR, CAGG, RTOX"
+"STEOSM","0.00788996139651518","0.151","producer","chain-bladder kelp","Stephanocystis osmundacea",NA,NA
+"STEOSMAD","0.0456050100605266","0.001","producer","chain-bladder kelp adult","Stephanocystis osmundacea",NA,NA
+"STRE","0.081136933243308","0.001","quarternary_consumer","Treefish","Sebastes serriceps","33, 8, 1, 26, 15, 31, 37","OPIC, CPUN, AFLA, MCAL, GNIG, OCAL, PCLA"
+"STRPURAD","0.253400749488046","0.001","primary_consumer","Purple Urchin adult","Strongylocentrotus purpuratus","44, 50, 25, 23, 12","PTECALAD, SARHOR, MACPYRAD, LAMFAR, EISARBAD"
+"STYMON","0.150210468363515","0.001","secondary_consumer","Stalked Tunicate","Styela montereyensis",NA,NA
+"TEGREG","0.0825277937694771","0.001","primary_consumer","Queen Tegula","Tegula regina",NA,NA
+"TETCAL","0.067803896836019","0.001","primary_consumer","Orange Puff-Ball Sponge","Tethya californiana",NA,NA
+"THYSQU","0.0242550735878354","0.008","secondary_consumer","Tube Snail, Scaled Worm Shell","Thylacodes squamigerus",NA,NA
+"TUBEWORM","0.0854874334317331","0.001","secondary_consumer","Tubeworm","Tubeworm",NA,NA
+"TURF","0.0171623443649465","0.023","producer","Red Filamentous Turf","Red Filamentous Turf",NA,NA
+"UNDPIN","0.0119562592211025","0.065","producer","Undaria","Undaria pinnatifida",NA,NA
+"URTCOLMCP","0.0544343375297972","0.001","secondary_consumer","Sand-Rose/McPeak's Anemone","Urticina columbiana/mcpeaki",NA,NA
+"URTCOR","0.065061048695501","0.001","secondary_consumer","Stubby Rose Anemone","Urticina coriacea",NA,NA
+"URTSPP","0.0144934378714439","0.039","secondary_consumer","Urticina Spp.","Urticina",NA,NA
