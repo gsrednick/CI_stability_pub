@@ -5,6 +5,8 @@
 # Purpose: Data import and processing for all downstream analyses.
 # Schematic for processes included in file
 
+# Data found in https://search.dataone.org/view/doi%3A10.6085%2FAA%2FPISCO_kelpforest.1.6
+# Other curated data are provided in submitted code package and uploaded accordingly.
 
 
 

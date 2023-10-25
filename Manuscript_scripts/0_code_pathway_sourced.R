@@ -12,7 +12,11 @@
 # The only one that can be skipped (due to exceedingly long run-time) is "5_species_interactions.R". 
 # The output from this script ("5_species_interactions.R") is saved in the directory and imported in successive scripts.
 
+
+
+
 # (1) Data curation ==== takes about 2 mins to run
+# Data for this step should be independently downloaded from DataOne at https://search.dataone.org/view/doi%3A10.6085%2FAA%2FPISCO_kelpforest.1.6 
 source("./Manuscript_scripts/1_data_curation.R")
 
 
