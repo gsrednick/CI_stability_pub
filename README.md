@@ -3,9 +3,7 @@
 **Title: Effects of protection and temperature variation on temporal stability in a marine reserve network**
 
 Srednick & Swearer 2023
-
-DOI and link to follow
-
+doi: 10.1111/cobi.14220
 
 ## Included scripts
 
