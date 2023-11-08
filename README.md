@@ -4,7 +4,7 @@
 
 Srednick & Swearer 2023
 
-doi: ![10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14220)
+doi: [10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14220)
 
 ## Included scripts
 
@@ -20,4 +20,4 @@ doi: ![10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/co
 - 9_SEM_path_plots.R --> SEM figure generator
 
 
-![script_flowchart](./Manuscript_scripts/script_flowchart.pdf)
+![script_flowchart](./Manuscript_scripts/script_flowchart.jpeg)
