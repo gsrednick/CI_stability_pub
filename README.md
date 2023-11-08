@@ -4,7 +4,7 @@
 
 Srednick & Swearer 2023
 
-doi: [10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14220)
+doi: ![10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14220)
 
 ## Included scripts
 
