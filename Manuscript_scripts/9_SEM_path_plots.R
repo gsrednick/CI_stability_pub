@@ -411,9 +411,71 @@ sem_path_all_black<-
   lims(x = c(1,6.5),
        y = c(2,17))
 
+ggsave("./Manuscript_scripts/MS_figures/Fig_3_black.jpeg",
+       plot = sem_path_all_black,
+       width = 6,
+       height = 4)
 
 ggsave("./Manuscript_scripts/MS_figures/Fig_3_black.pdf",
        plot = sem_path_all_black,
+       width = 6,
+       height = 4)
+
+sem_path_all_node<-
+  ggraph(hs_graph, coord_positions) + # success!!!!
+  #ggraph(hs_graph,layout = "sugiyama") + # success!!!
+  theme_bw() +
+  removeGrid() +
+  #coord_fixed() +
+  #geom_edge_link(aes(edge_color = ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  #                   alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5),
+  #                   #arrow = ifelse(op == "~~", arrow_cov, arrow_norm)
+  #),
+  #arrow = arrow(length = unit(3, 'mm'),angle = 20,
+  #              ends = "last",
+  #              type = "open"),
+  #start_cap = circle(12, 'mm'),
+  #end_cap = square(25, 'mm'),
+  #width = 3,
+  ##check_overlap = T,
+  #angle_calc = 'none',
+  #label_colour = "white",
+  ##label_dodge = unit(0, 'mm'),
+  #label_size = 4) +
+  #geom_edge_link(arrow=ar,aes(start_cap=circle(6, 'mm'),
+  #                            end_cap=square(10, 'mm'))) +
+  labs(edge_color = "Coef. estimate", linetype = "none", fill = "variable") +
+  geom_node_point(aes(fill = name), fill = "white",size = 30, pch =21) +
+  
+  #scale_fill_manual(limits = c('MPA site status','CV SST', 'Hab. PC1','resource TP','Prey rich.', "consumer TP",
+  #                             'predation','competition','prey synchrony','network stability'),
+  #                    values = fill_colors_com$fill) +
+  theme(axis.text = element_blank(),
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        legend.position = c(0.74,0.07),
+        legend.direction = "horizontal",
+        legend.key.width=unit(0.8, 'cm'),
+        legend.background = element_blank(),
+        panel.background = element_rect(fill = "black", color  =  "black"),  
+        panel.border = element_rect(fill = NA, color = "black"),  
+        plot.background = element_rect(color = "black", fill = "black"),
+        panel.margin = unit(0.5, "lines"),
+        strip.background = element_rect(fill = "grey30", color = "grey10"),
+        text = element_text(color = "white")) +
+  guides(alpha = "none", fill = "none") +
+  scale_edge_linetype(guide = "none") +
+  scale_edge_alpha(guide = 'none') +
+  scale_edge_colour_gradientn(colors = c(low = "blue",mid = "white",high = "red"), 
+                              values = scales::rescale(c(-0.5, -0.15,0, 0.15,0.5)),
+                              limits = c(-0.5, 0.5), oob = scales::squish) +
+  geom_node_text(aes(label = stringr::str_wrap(name, 8)), color = "black") +
+  lims(x = c(1,6.5),
+       y = c(2,17))
+
+
+ggsave("./Manuscript_scripts/MS_figures/Fig_3_B_node.jpeg",
+       plot = sem_path_all_node,
        width = 6,
        height = 4)
 
@@ -478,5 +540,67 @@ ggsave("./Manuscript_scripts/MS_figures/Fig_5_black.pdf",
        plot = sem_path_meta_all_black,
        width = 6,
        height = 4)
+
+
+sem_path_meta_all_node<-
+  #ggraph(hs_meta_all_graph, layout = "sugiyama") +
+  ggraph(hs_meta_all_graph,coord_positions_metacom_orderd) +
+  theme_bw() +
+  removeGrid() +
+  #geom_edge_link(aes(edge_color =  ifelse(!is.na(sig) & sig == "yes", est.std, NA), # changed from est
+  #                   #width =  ifelse(!is.na(sig) & sig == "yes", est.std, NA),
+  #                   #linetype = ifelse(!is.na(sig) & sig == "yes", "dotted", 'solid'),
+  #                   #label = ifelse(!is.na(sig) & sig == "yes", ifelse(est.std > 0, "+", "-"),""), # changed from est
+  #                   alpha = ifelse(!is.na(sig) & sig == "yes", 1,0.5)),
+  #               arrow = arrow(length = unit(3, 'mm'),angle = 20,
+  #                             ends = "last",
+  #                             type = "open"),
+  #               start_cap = circle(12, 'mm'),
+  #               end_cap = square(25, 'mm'),
+  #               width = 3,
+  #               #check_overlap = T,
+  #               angle_calc = 'none',
+  #               label_colour = "white",
+  #               #label_dodge = unit(0, 'mm'),
+  #               label_size = 4) +
+  #geom_edge_link(arrow=ar,aes(start_cap=circle(6, 'mm'),
+  #                            end_cap=square(10, 'mm'))) +
+  labs(edge_color = "Coef. estimate", linetype = "none", fill = "variable") +
+  geom_node_point(aes(fill = name), fill = "white",size = 30, pch =21) +
+  
+  #scale_fill_manual(limits = c('MPA site status','CV SST', 'Hab. PC1','resource TP','Prey rich.', "consumer TP",
+  #                             'predation','competition','prey synchrony','network stability'),
+  #                    values = fill_colors_com$fill) +
+  theme(axis.text = element_blank(),
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        legend.position = c(0.78,0.08),
+        legend.direction = "horizontal",
+        legend.background = element_blank(),
+        panel.background = element_rect(fill = "black", color  =  "black"),  
+        panel.border = element_rect(fill = NA, color = "black"),  
+        plot.background = element_rect(color = "black", fill = "black"),
+        panel.margin = unit(0.5, "lines"),
+        strip.background = element_rect(fill = "grey30", color = "grey10"),
+        text = element_text(color = "white")) +
+  guides(alpha = "none", fill = "none") +
+  scale_edge_linetype(guide = "none") +
+  scale_edge_alpha(guide = 'none') +
+  scale_edge_colour_gradientn(colors = c(low = "blue",mid = "white",high = "red"), 
+                              values = scales::rescale(c(-0.6, -0.05,0, 0.05,0.6)),
+                              limits = c(-0.8, 0.8), oob = scales::squish) +
+  geom_node_text(aes(label = stringr::str_wrap(name, 8)), color = "black") +
+  lims(x = c(.5,9),
+       y = c(1,17))
+
+
+
+
+ggsave("./Manuscript_scripts/MS_figures/Fig_5_B_node.jpeg",
+       plot = sem_path_meta_all_node,
+       width = 6,
+       height = 4)
+
+
 
 # END #
