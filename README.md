@@ -21,3 +21,4 @@ doi: [10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cob
 
 
 ![script_flowchart](./Manuscript_scripts/script_flowchart.pdf)
+![script_flowchart text](relative%20path/to/script_flowchart?raw=true "Title")
