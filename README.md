@@ -1,6 +1,6 @@
 # Code in support of Article in Conservation Biology
 
-**Title: Protection and temperature variation promote temporal stability in a marine reserve network**
+**Title: Effects of protection and temperature variation on temporal stability in a marine reserve network**
 
 Srednick & Swearer 2023
 
@@ -19,3 +19,6 @@ DOI and link to follow
 - 7_sem_network.R --> casual structural equation model (SEM) analyses
 - 8_figures.R --> main figure generator
 - 9_SEM_path_plots.R --> SEM figure generator
+
+
+![script_flowchart](./Manuscript_scripts/script_flowchart.pdf)
