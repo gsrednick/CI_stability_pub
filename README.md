@@ -20,4 +20,4 @@ doi: [10.1111/cobi.14220](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cob
 - 9_SEM_path_plots.R --> SEM figure generator
 
 
-![script_flowchart](./Manuscript_scripts/script_flowchart.jpeg)
+![script_flowchart](./Manuscript_scripts/script_flowchart.jpg)
