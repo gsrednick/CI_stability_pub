@@ -51,7 +51,8 @@ xlabs <- paste(unique(B_sem_df_filtered$site_status),
 com_facet_labels <- B_sem_df_filtered %>%
   group_by(Island, site_status) %>%
   summarize(count = n()) %>%
-  mutate(com_xlabs = paste(site_status, "\n(N=", count, ")", sep = ""))
+  mutate(com_xlabs = paste(site_status, "\n(n=", count, ")", sep = ""))
+
 
 B_sem_df_filtered_plotting <- B_sem_df_filtered %>%
   left_join(com_facet_labels, by = c("Island", "site_status"))
@@ -191,7 +192,7 @@ ANOVA_DD<-ggplot(B_sem_df_filtered, aes(x = site_status, y = DD_B_3root, color =
 
 
 
-Figure_3_comp<-ANOVA_competition + ANOVA_predation + ANOVA_sync+ ANOVA_stab + plot_layout(ncol = 1, guides = "collect") & plot_annotation(tag_levels = "A") & theme(legend.position = "none")
+Figure_3_comp<-ANOVA_competition + ANOVA_predation + ANOVA_sync+ ANOVA_stab + plot_layout(ncol = 1, guides = "collect") & plot_annotation(tag_levels = "a") & theme(legend.position = "none")
 
 ggsave("./Manuscript_scripts/MS_figures/Figure_3.pdf",
        plot = Figure_3_comp,
@@ -206,7 +207,8 @@ ggsave("./Manuscript_scripts/MS_figures/Figure_3.jpeg",
 ggsave("./Manuscript_scripts/MS_figures/Figure_3.png",
        plot = Figure_3_comp,
        width = 8,
-       height = 8)
+       height = 8,
+       dpi = 300)
 
 
 # community summary statistics
@@ -401,7 +403,7 @@ ANOVA_competition_meta<-ggplot(B_meta_sem_df_filtered, aes(x = site_status, y = 
 
 
 
-metacom_compar<-ANOVA_competition_meta + ANOVA_predation_meta + ANOVA_sync_meta + ANOVA_stab_meta + plot_layout(ncol = 1, guides = "collect") & plot_annotation(tag_levels = "A") & theme(legend.position = "top")
+metacom_compar<-ANOVA_competition_meta + ANOVA_predation_meta + ANOVA_sync_meta + ANOVA_stab_meta + plot_layout(ncol = 1, guides = "collect") & plot_annotation(tag_levels = "a") & theme(legend.position = "top")
 
 ggsave("./Manuscript_scripts/MS_figures/Fig_S2_metacom_metrics.pdf",
        plot = metacom_compar,
@@ -421,6 +423,25 @@ ggsave("./Manuscript_scripts/MS_figures/Figure_S2.png",
  pred_prey_mds_df<- read.csv("./Manuscript_scripts/Exported_data/mds_points_community.csv")
  
  mds_net<-merge(pred_prey_mds_df,site_table) 
+ 
+ mds_net %>% filter(year == 2015) %>%
+   ggplot(aes(x=MDS1,y=MDS2)) + 
+   #geom_errorbarh(aes(xmax = mean_MDS1 + se_MDS1, xmin = mean_MDS1 - se_MDS1), color = "grey") + # horizontal error bars (SE) 
+   #geom_errorbar(aes(ymax = mean_MDS2 + se_MDS2, ymin = mean_MDS2 - se_MDS2), color = "grey") + # vertical error bars (SE) 
+   geom_point(aes(fill = site_status, alpha = year),pch = 21,size=6) +  # actual points
+   #geom_path(aes(color=site_status), show.legend = F) + # path that connects each point in time
+   theme_bw() + # theme
+   removeGrid() + # no grid please
+   #geom_text(aes(label = year)) +
+   theme(text = element_text(size = 14, color = "black"), # theme formatting 
+         axis.text.x = element_text(color="black"), 
+         axis.text.y = element_text(color="black")) +
+   labs(fill = "MPA site status", x = "MDS1",y="MDS2") + # labels 
+   scale_colour_manual(values=c("MPA" = "red","reference" = "blue"))+ # manual coloring
+   scale_fill_manual(values=c("MPA" = "red","reference" = "blue"))+ # manual coloring
+   scale_alpha_continuous(name = "year", range = c(0.1, 1)) +
+   facet_wrap(~Island, ncol = 2)
+ 
  
  #### MDS  with averages and error bars
  ## For plotting means +/- SE on objects
@@ -472,7 +493,8 @@ ggsave("./Manuscript_scripts/MS_figures/Figure_S2.png",
    "./Manuscript_scripts/MS_figures/Figure_2.png",
    plot = summarized_MDS,
    width = 11,
-   height = 8)
+   height = 8,
+   dpi = 300)
  
  
  

@@ -236,19 +236,21 @@ temp_plot_df$year<-as.numeric(temp_plot_df$year)
 temp_plot_A<-temp_plot_df %>% 
   filter(!year == "2020") %>% 
   ggplot(aes(x = year, y = mean_SST,color = site_status, group = site_status)) +
-  geom_point(alpha = 0.2) +
+  #geom_point(alpha = 0.2) +
   geom_line(aes(group = site),alpha = 0.2) +
- stat_summary(aes(color = site_status),
-              fun.data = mean_se, 
-              geom = "pointrange") +      
- stat_summary(aes(color = site_status), #color = "black", 
-              geom = "point",
-              fun = "mean", 
-              size = 4) +
- stat_summary(geom = "line", 
-              aes(color = site_status), 
-              fun = "mean") +
-  theme_bw() +
+  stat_summary(geom = "line", 
+               aes(color = site_status), 
+               fun = "mean") +
+  stat_summary(aes(fill = site_status), color = "black", 
+               geom = "point",
+               fun = "mean", 
+               size = 4, pch = 21) +
+  stat_summary(aes(color = site_status),
+               fun.data = mean_se, 
+               geom = "pointrange",
+               #color = "black") 
+               )+      
+               theme_bw()  +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   removeGrid() +
   labs(x = "year", y = "annual mean SST (°C)", color = "MPA site status") +
@@ -259,7 +261,8 @@ temp_plot_A<-temp_plot_df %>%
         axis.text.x = element_blank(),
         legend.background = element_rect(fill='transparent')) +
   scale_color_manual(values = c("MPA" = "red", "reference" = "blue")) +
-  guides(color = "none") +
+  scale_fill_manual(values = c("MPA" = "red", "reference" = "blue")) +
+  guides(fill = "none",group = "none") +
   facet_wrap(~Island, nrow =1) +
   coord_cartesian(ylim=c(12,20)) +
   scale_x_continuous(n.breaks = 10)
@@ -268,18 +271,20 @@ temp_plot_A<-temp_plot_df %>%
 temp_plot_B<-temp_plot_df %>% 
   filter(!year == "2020") %>% 
   ggplot(aes(x = year, y = CV_SST,color = site_status, group = site_status)) +
-  geom_point(alpha = 0.2) +
+  #geom_point(alpha = 0.2) +
   geom_line(aes(group = site),alpha = 0.2) +
-  stat_summary(aes(color = site_status),
-               fun.data = mean_se, 
-               geom = "pointrange") +      
-  stat_summary(aes(color = site_status), #color = "black", 
-               geom = "point",
-               fun = "mean", 
-               size = 4) +
   stat_summary(geom = "line", 
                aes(color = site_status), 
                fun = "mean") +
+  stat_summary(aes(fill = site_status), color = "black", 
+               geom = "point",
+               fun = "mean", 
+               size = 4, pch = 21) +
+  stat_summary(aes(color = site_status),
+               fun.data = mean_se, 
+               geom = "pointrange",
+               #color = "black") 
+               )+      
   theme_bw() +
   #theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   removeGrid() +
@@ -287,13 +292,15 @@ temp_plot_B<-temp_plot_df %>%
   theme(legend.position = "none",
         plot.margin = unit(c(0,0,0,0), "cm")) +
   scale_color_manual(values = c("MPA" = "red", "reference" = "blue")) +
+  scale_fill_manual(values = c("MPA" = "red", "reference" = "blue")) +
   facet_wrap(~Island, nrow =1) +
   #coord_cartesian(ylim=c(12,20)) +
+  guides(fill = "none", color = "none") +
   scale_x_continuous(n.breaks = 10)
   
   
 
-temp_plot_full<-temp_plot_A + temp_plot_B + plot_layout(ncol = 1, guides = 'collect') & theme(legend.position = "bottom") & plot_annotation(tag_levels = "A")
+temp_plot_full<-temp_plot_A + temp_plot_B + plot_layout(ncol = 1, guides = 'collect') & theme(legend.position = "bottom") & plot_annotation(tag_levels = "a")
 
 ggsave("./Manuscript_scripts/MS_figures/S1_temperature.pdf",
        plot = temp_plot_full,
